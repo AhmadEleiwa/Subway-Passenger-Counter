@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+   
+}
+.inc {
+    background-color: brown;
+
+
+}
+.save{
+    background-color: darkgreen;
+}
+button {
+    width: 200px;
+    padding: 10px 0;
+    background:darkred;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin: 10px auto;
+    transition: 0.03s all ease-in-out;
+    font-size: 1.01em;
+
+}
+.inc:focus, .save:focus {
+    outline: 0.3em solid rgba(0, 0, 255, 0.227);
+   
+
+}
+.inc:active, .save:active{
+    padding: 9px 0;
+    outline: 0.2em solid rgba(0, 0, 255, 0.227);
+
+    width: 195px;
+}
